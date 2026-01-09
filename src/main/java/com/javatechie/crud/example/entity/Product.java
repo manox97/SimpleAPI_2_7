@@ -18,8 +18,8 @@ public class Product {
 
     @Id
     @GeneratedValue
-    private int id;
+    private Integer  id;
     private String name;
-    private int quantity;
-    private double price;
+    private Integer  quantity;
+    private Integer  price;
 }
